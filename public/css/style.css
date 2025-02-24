@@ -1,0 +1,186 @@
+/* GENEL STİL */
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* HEADER */
+.site-header {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 260px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:60px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.brand img {
+    max-height: 40px;
+    width: auto;
+}
+
+/* NAVBAR */
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Menü öğelerini sağa hizala */
+}
+
+.nav-menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover: Üzerine gelince */
+.nav-menu a:hover {
+    color: #C92B8E;
+    outline: 2px solid #C92B8E;
+}
+
+/* Aktif (Seçili) */
+.nav-menu a.active {
+    color: #C92B8E;
+    outline: 2px solid #C92B8E;
+}
+
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+.hero-title {
+    font-size: 7rem;
+    font-weight: 800;
+    line-height: 1.2;
+    padding: 30px 300px;
+}
+
+.highlight {
+    color: #C92B8E;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 6px 4px;
+}
+
+.text{
+    position: relative; 
+    display: inline-block; 
+}
+
+.decorative-star {
+    margin-top: 20px;
+    width: 100px;
+}
+
+/* SECTIONS */
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+        color: white;
+    }
+
+    .site-header {
+        align-items: flex-start;
+        padding: 15px;
+        margin-top: 20px !important;
+        flex-direction: column;
+    }
+
+    .site-header .nav-menu.active {
+        display: flex;
+    }
+
+    .site-header .nav-menu li {
+        margin: 10px 0;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 15px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+}
+
+
