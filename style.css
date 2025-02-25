@@ -13,7 +13,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    padding: 10px 260px;
+    padding: 10px 370px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -94,6 +94,17 @@ body {
     font-weight: 800;
     line-height: 1.2;
     padding: 30px 300px;
+}
+
+.hero-message{
+    left: 259px; 
+    top: 265px; 
+    position: absolute; 
+    color: #636363; 
+    font-size: 23px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word"
 }
 
 .highlight {
