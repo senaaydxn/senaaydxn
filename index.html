@@ -1,68 +1,462 @@
 <!DOCTYPE html>
 <html lang="tr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sena Aydın - Portfolyo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/senaaydxn/style.css">
-</head>
-
-<body>
-
-    <!-- HEADER -->
-    <header class="site-header">
-        <div class="brand">
-            <img src="assets/logo.png" alt="Sena Aydın Logo" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sena Aydın | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <img class="navbar-brand" src="assets/logo.png" alt="Sena Aydın Logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="menu-toggle">☰</div>
-        <ul class="nav-menu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </header>
+      </div>
+    </nav>
 
-    <!-- HERO SECTION -->
-    <section id="hero" class="hero">
-        <div class="hero-message">Need a designer who understands <br/>both creativity and code? <br/>Let’s work together!<br/></div>
-        <div class="hero-content">
-            <h1 class="hero-title">Transforming ideas <br> into visually <img class="decorative-star"
-                    src="assets/star.png" alt="Star"> <br> impactful <span class="text">
-                    designs.<span class="highlight"> designs.</span> </span></h1>
+    <!-- Hero Section (Giriş Alanı) -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center note">
+          <!-- Sol Taraftaki Not Alanı -->
+          <div class="col-lg-4 text-lg-start text-center mb-4 mb-lg-0">
+            <div class="note-box">
+              <p>
+                Need a designer who understands<br />both creativity and code?
+              </p>
+              <strong>Let’s work together!</strong>
+            </div>
+          </div>
         </div>
+        <div class="row align-items-center">
+          <!-- Orta Büyük Başlık -->
+          <div class="col-lg-12 text-lg-start text-center">
+            <h1 class="hero-title">
+              Transforming ideas <br />
+              into visually
+              <img class="decorative-star" src="assets/star.png" alt="Star" />
+              impactful
+              <span class="highlight-text">
+                designs.<span class="highlight"> designs.</span>
+              </span>
+            </h1>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- SECTIONS -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Burası hakkında kısmı...</p>
+    <!-- About Me Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="space"></div>
+        <span class="section-title">(About me)</span>
+
+        <div class="mid-title">
+          <span>My name is <span class="pink">Sena Aydın.</span></span> <br />
+          <span class="second-text"
+            >I am <span class="pink">Frontend Developer</span> and
+            <span class="pink">UI/UX Designer</span> with a strong engineering
+            background.</span
+          >
+        </div>
+        <img src="assets/sena-3.jpg" class="about-me-img" alt="Sena Aydın" />
+        <div class="about-text">
+          <span class="first-line"
+            >I bring creativity and precision to web and mobile design
+            projects.</span
+          >
+          <br />
+          <span>
+            With experience in the e-commerce sector, I’ve honed my skills in
+            creating user-friendly designs that drive conversion rates. By
+            incorporating user feedback, I effectively revise designs to meet
+            user needs. Proficient in tools like Adobe Creative Suite and Figma,
+            I am always eager to learn and innovate. Known for being a
+            collaborative and reliable team player, I excel at turning ideas
+            into visually impactful designs.
+          </span>
+        </div>
+        <div class="mid-title">
+          <span
+            >In addition to my identity as a computer engineer, I have developed
+            myself in the field of UI/UX design.</span
+          >
+          <br />
+        </div>
+        <div class="about-info">
+          <div class="row">
+            <div class="col-lg-5 info-text">
+              <span>
+                I was born on December 4, 1996, in Istanbul. I create designs in
+                fashion design and share them on my Instagram page, sennasland.
+                Writing, singing, and composing music are other hobbies of mine.
+                I have received training in music production and sound design,
+                and I am a music producer. My songs are available on all music
+                platforms. I am also receiving equestrian training and I love
+                animals.</span
+              >
+            </div>
+            <div class="desktop-logo-banners">
+              <div class="col-lg-3">
+                <img
+                  class="logo-banner"
+                  src="assets/figma-banner.png"
+                  alt="Figma"
+                />
+              </div>
+              <div class="col-lg-2">
+                <img
+                  class="logo-banner mt-5"
+                  src="assets/xd-banner.png"
+                  alt="Xd"
+                />
+              </div>
+              <div class="col-lg-2">
+                <img
+                  class="logo-banner"
+                  src="assets/sketch-banner.png"
+                  alt="Sketch"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5 info-text">
+              <span>
+                I am proficient in using popular design tools like Adobe, Figma,
+                Sketch, Webflow etc., actively and effectively. I believe I add
+                value to the team I work with. I can turn every sentence into a
+                design. I am dynamic and eager to learn. I am a collaborative
+                and well-liked team player. I believe my visual skills set me
+                apart. Since I also know the development stages of a design,
+                this is a great advantage for the team I am part of and the
+                tasks at hand.</span
+              >
+            </div>
+            <div class="desktop-logo-banners">
+              <div class="col-lg-3 mt-2">
+                <img class="logo-banner" src="assets/ps-banner.png" alt="Ps" />
+              </div>
+              <div class="col-lg-3 mt-5">
+                <img
+                  class="logo-banner"
+                  src="assets/webflow-banner.png"
+                  alt="Webflow"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row mobil-logo-banners mobil-logo-banner mt-3">
+            <div class="col-md-1 col-sm-1"></div>
+            <div class="col-md-2 col-sm-2">
+              <img src="assets/figma-banner.png" alt="Figma" />
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <img src="assets/xd-banner.png" alt="Xd" />
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <img src="assets/sketch-banner.png" alt="Sketch" />
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <img src="assets/ps-banner.png" alt="Ps" />
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <img src="assets/webflow-banner.png" alt="Webflow" />
+            </div>
+            <div class="col-md-1 col-sm-1"></div>
+          </div>
+        </div>
+        <section class="section">
+          <h1 class="skills-title">
+            Design <br />
+            &nbsp;&nbsp; & Develop
+            <div class="divider"></div>
+          </h1>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 skills-card">
+                <div class="card-header">
+                  <span class="card-title">HTML</span>
+                  <img
+                    src="assets/star2.png"
+                    alt="star icon"
+                    class="card-icon"
+                  />
+                </div>
+                <p class="card-text">
+                  I create scalable, SEO-friendly structures that enhance the
+                  user experience.
+                </p>
+                <div class="card-wrapper">
+                  <img
+                    src="assets/html5.png"
+                    alt="html5 icon"
+                    class="card-wrapper-icon"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-3 skills-card">
+                <div class="card-header">
+                  <span class="card-title">CSS</span>
+                  <img
+                    src="assets/star2.png"
+                    alt="star icon"
+                    class="card-icon"
+                  />
+                </div>
+                <p class="card-text">
+                  I use modern CSS techniques to design scalable, responsive,
+                  and visually appealing interfaces.
+                </p>
+                <div class="card-wrapper">
+                  <img
+                    src="assets/css3.png"
+                    alt="css3 icon"
+                    class="card-wrapper-icon"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-3 skills-card">
+                <div class="card-header">
+                  <span class="card-title">JAVASCRIPT</span>
+                  <img
+                    src="assets/star2.png"
+                    alt="star icon"
+                    class="card-icon"
+                  />
+                </div>
+                <p class="card-text">
+                  I use modern JavaScript features to create dynamic and
+                  interactive user experiences.
+                </p>
+                <div class="card-wrapper">
+                  <img
+                    src="assets/javascript.png"
+                    alt="javascript icon"
+                    class="card-wrapper-icon"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-3 skills-card">
+                <div class="card-header">
+                  <span class="card-title">REACT JS</span>
+                  <img
+                    src="assets/star2.png"
+                    alt="star icon"
+                    class="card-icon"
+                  />
+                </div>
+                <p class="card-text">
+                  I use React.js to build performance-driven, reusable, and
+                  scalable user interfaces.
+                </p>
+                <div class="card-wrapper">
+                  <img
+                    src="assets/react.png"
+                    alt="react icon"
+                    class="card-wrapper-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-title">
+            <span
+              >I combine <span class="pink">aesthetics</span> and
+              <span class="pink">functionality</span> at every step, from design
+              to development. Crafting user-centric, effective, and innovative
+              solutions.</span
+            >
+          </div>
+        </section>
+      </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p>Eğitim geçmişin burada...</p>
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <span class="section-title">(Education)</span>
+      <div class="container education-container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img
+              class="education-image"
+              src="assets/sena-4.JPG"
+              alt="Sena Aydın"
+            />
+          </div>
+          <div class="col-lg-6 education-list">
+            <div class="mt-2">
+              <span class="education-title"
+                >Bachelor of Computer Engineering</span
+              >
+              <br />
+              <span class="education-text">Trakya University, 2014-2018 </span>
+              <br />
+              <span class="education-info"
+                >Concentration: Frontend Development</span
+              >
+            </div>
+            <div class="mt-2">
+              <span class="education-title"
+                >Microsoft Web and Mobile Development Expertise Training
+              </span>
+              <br />
+              <span class="education-text"
+                >Bahcesehir University, Wissen Akademie, 2018-2019</span
+              >
+              <br />
+              <span class="education-info"
+                >Specialization: Full Stack Development</span
+              >
+            </div>
+            <div class="mt-2">
+              <span class="education-title">English Course </span> <br />
+              <span class="education-text"
+                >American Culture, B2 Level (8 Months), 2016
+              </span>
+              <br />
+              <span class="education-info"
+                >Throughout my English course, I improved my grammar and
+                vocabulary.</span
+              >
+            </div>
+            <div class="mt-2">
+              <span class="education-title">High School - Science-Math</span>
+              <br />
+              <span class="education-text">Rainbow College, 2010-2014 </span>
+              <br />
+              <span class="education-info"
+                >Honors: Valedictorian of the School</span
+              >
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <span class="text">
+              I have always been a successful student throughout my education.
+              While studying Computer Engineering, it was clear from the first
+              year which field I wanted to pursue. I took a leading role in
+              design and front-end development in projects during my school
+              years. Additionally, I often took on leadership responsibilities
+              in team projects.</span
+            >
+          </div>
+        </div>
+        <div class="education-divider">
+          <!-- <span>EDUCATION</span> -->
+        </div>
+      </div>
     </section>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Yaptığın projeler burada...</p>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+      <div class="space"></div>
+      <span class="section-title">(Portfolio)</span>
+      <div class="container text-center">
+        <p>My portfolio</p>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>İletişim bilgilerin burada...</p>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="space"></div>
+      <span class="section-title">(Contact)</span>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact-wrapper">
+              <span class="contact-title">LET'S CONNECT</span> <br />
+              <span class="contact-subtitle"
+                >You can find me on social media.</span
+              >
+              <div class="row mt-3">
+                <div class="col-lg-6 col-md-6">
+                  <span class="contact-text"
+                    >Explore My Design Portfolio 🎨 Check out my LinkedIn for my
+                    professional background and projects. You can also visit my
+                    Behance profile to explore my UI/UX designs, branding
+                    projects, and creative works. Let's connect and
+                    collaborate!</span
+                  >
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <span class="contact-text"
+                    >Listen to My Music! 🎵 You can listen to my songs on
+                    Spotify and other music platforms. I create unique melodies,
+                    blending emotions with sound. Don't forget to follow me to
+                    stay updated on my latest releases!</span
+                  >
+                </div>
+              </div>
+            </div>
+            <img class="contact-star" src="assets/star2.png" alt="Star" />
+          </div>
+          <div class="col-lg-6">
+            <div class="social-media-wrapper">
+              <span class="social-media-title">LINKEDIN</span> 
+              <a href="https://www.linkedin.com/in/senaaydxn/" class="social-media-link">senaaydxn</a> <br>
+              <span class="social-media-title">BEHANCE</span>
+              <a href="https://www.behance.net/senaaydxn" class="social-media-link">senaaydxn</a><br>
+              <span class="social-media-title">DRIBBBLE</span> 
+              <a href="https://dribbble.com/senaaydxn" class="social-media-link">senaaydxn</a><br>
+              <span class="social-media-title">INSTAGRAM</span> 
+              <a href="https://www.instagram.com/senaaydxn/" class="social-media-link">senaaydxn</a><br>
+              <span class="social-media-title">SPOTIFY</span> 
+              <a href="https://open.spotify.com/intl-tr/artist/36U4VFVV42yOckFluBItoY?si=tMEZ9hSbSJ6L-GvmBT-zFw" class="social-media-link">Sena Aydın</a><br>
+              <span class="social-media-title">YOUTUBE</span> 
+              <a href="https://www.youtube.com/@senaaydxn" class="social-media-link">senaaydxn</a><br>
+              <span class="social-media-title">EMAIL</span> 
+              <a href="mailto:senaaydxn@gmail.com" class="social-media-link">senaaydxn@gmail.com</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2025 Sena Aydın</p>
+    <!-- Footer -->
+    <footer class="text-center">
+      <p>© 2025 Sena Aydın</p>
     </footer>
 
-    <script src="/senaaydxn/script.js"></script> <!-- JavaScript Dosyası -->
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
