@@ -45,7 +45,7 @@ I blend **aesthetics** with **functionality** to craft seamless digital experien
 
 ## 📸 Sneak Peek  
 <p align="center">
-  <img src="https://senaaydxn.github.io/assets/senaaydin-portfolio-1.jpg" alt="Project Preview" width="700">
+  <img src="https://senaaydxn.github.io/assets/senaaydin-portfolio-1.JPG" alt="Project Preview" width="700">
 </p>
 
 
