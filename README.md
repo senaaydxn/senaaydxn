@@ -1,4 +1,4 @@
-<h1 align="center">✨ Sena Aydın | UI/UX Designer & Frontend Developer ✨</h1>
+<h1 align="center">✨Sena Aydın | UI/UX Designer & Frontend Developer✨</h1>
 
 <p align="center">
   👩‍💻 UI/UX Designer | ✨ Frontend Developer | 🎵 Music Producer & Singer   
