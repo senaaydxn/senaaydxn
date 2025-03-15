@@ -1,7 +1,7 @@
 <h1 align="center">✨ Sena Aydın | Personal Portfolio ✨</h1>
 
 <p align="center">
-  👩‍💻 UI/UX Designer | ✨ Frontend Developer | 🎵 Music Producer & Singer   
+  👩‍💻 UI/UX Designer | ✨ Frontend Developer
   <br>
   Passionate about creating visually stunning & user-friendly designs.
 </p>
@@ -27,7 +27,6 @@ I blend **aesthetics** with **functionality** to craft seamless digital experien
 - 🖌️ **Branding & Graphic Design**
 
 
-
 ## 🔥 Features of My Work
 ✅ **Minimal & Modern Design**  
 ✅ **Responsive & Interactive UI**  
@@ -35,19 +34,10 @@ I blend **aesthetics** with **functionality** to craft seamless digital experien
 ✅ **Fast & Optimized Performance**  
 
 
-
-## 🛠️ Tech Stack
-
-- **Frontend:** HTML, CSS, JavaScript, React.js  
-- **Design:** Figma, Adobe Creative Suite, Sketch  
-- **Other:** Git, GitHub, Webflow  
-
-
 ## 📸 Sneak Peek  
 <p align="center">
   <img src="https://senaaydxn.github.io/assets/senaaydin-portfolio-1.JPG" alt="Project Preview" width="700">
 </p>
-
 
 
 ## 🚀 Live Demo  
