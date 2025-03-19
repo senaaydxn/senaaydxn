@@ -356,14 +356,6 @@ body {
   height: auto;
 }
 
-.mobile-sm {
-  width: 30%;
-}
-
-.mobile-md {
-  width: 38%;
-  margin-left: 10px;
-}
 
 .round{
   border-radius: 50%;
@@ -544,12 +536,6 @@ footer {
   .item-mockup-container {
     flex-direction: column;
     align-items: center;
-  }
-
-  .mobile-sm,
-  .mobile-md {
-    width: 50%;
-    margin: 5px 0;
   }
 
   .contact-wrapper {
