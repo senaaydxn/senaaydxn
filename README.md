@@ -19,9 +19,9 @@
 ---
 
 ## 🚀 About Me
-I blend **aesthetics** with **functionality** to craft seamless digital experiences. My expertise spans across UI/UX design, frontend development, and music production.
+I blend **aesthetics** with **functionality** to craft seamless digital experiences. My expertise spans across UI/UX design, frontend development.
 
-- 🎨 **Minimal & Modern UI/UX Design**
+- 🎨 **Modern UI/UX Design**
 - 💻 **Frontend Development with Html, Css, Javascript and React.js**
 - 🎵 **Music Production, Sound Design & Singing**
 - 🖌️ **Branding & Graphic Design**
@@ -34,15 +34,8 @@ I blend **aesthetics** with **functionality** to craft seamless digital experien
 ✅ **Fast & Optimized Performance**  
 
 
-## 📸 Sneak Peek  
-<p align="center">
-  <img src="https://senaaydxn.github.io/assets/senaaydin-portfolio-1.JPG" alt="Project Preview" width="700">
-</p>
-
-
 ## 🚀 Live Demo  
 🔗 [Check it out here!](https://senaaydxn.github.io/senaaydxn/)  
-
 
 
 ## 📬 Connect with Me  
